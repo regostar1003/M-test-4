@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* ===== ご挨拶 ===== */
+
+.greeting{
+    max-width:1000px;
+
+    margin:100px auto;
+
+    padding:0 30px;
+
+    line-height:2;
+}
+
+.greeting h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#000000;
+
+    font-size:40px;
+    font-family:
+        "Yu Mincho",
+        "Hiragino Mincho ProN",
+        "MS Mincho",
+        serif;
+
+    white-space: normal;
+}
+
+.greeting p{
+    font-size:18px;
+    line-height:2.2;
+    text-align:left;
+
+    font-family:
+        "Yu Mincho",
+        "Hiragino Mincho ProN",
+        "MS Mincho",
+        serif;
+
+    white-space: normal;
+}
+
+
+

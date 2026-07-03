@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* ===== ご挨拶 ===== */
+
+.contact{
+    max-width:900px;
+    margin:140px auto 80px;  /* ←上を増やす（80→140くらい） */
+    padding:0 20px;
+}
+.contact h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.contact-block{
+    margin:80px 0;   /* ←上下しっかり空ける */
+    padding-bottom:25px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.contact-block h3{
+    font-size:22px;
+    margin-bottom:20px;
+    color:#333;
+
+    text-align:center;   /* ←追加 */
+}
+
+.contact-block p{
+    font-size:16px;
+    line-height:2.2;   /* ←少し広げる */
+    color:#444;
+}
+.contact .contact-block:last-of-type{
+    border-bottom:none;
+    padding-bottom:0;
+}
+.contact-block ul{
+    list-style: disc;
+    padding-left: 25px;
+
+    margin: 20px 0 0 20px;  /* 上・右・下・左 */
+}
+.contact-block li{
+    margin-bottom:8px;   /* 行間を少し広げる */
+    line-height:1.8;
+}
+
+.tel{
+    font-size:20px;
+    font-weight:bold;
+    color:#2e8b57;
+}
